@@ -2,8 +2,8 @@ Source: debathena-clients
 Section: debathena/base
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, finger
-Standards-Version: 3.9.1
+Build-Depends: cdbs, debhelper, dh-buildinfo, finger
+Standards-Version: 3.9.3
 
 Package: debathena-clients
 Architecture: all
