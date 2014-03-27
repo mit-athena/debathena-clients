@@ -2,7 +2,7 @@ Source: debathena-clients
 Section: debathena/base
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: cdbs, debhelper, dh-buildinfo, finger
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.3
 
 Package: debathena-clients
@@ -11,16 +11,13 @@ Depends: athena-jot,
  debathena-apparmor-config,
  debathena-athinfo,
  debathena-counterlog,
- debathena-dent,
  debathena-discuss,
  debathena-discuss-emacs,
- ${debathena-finger-depends},
  debathena-from-config,
  debathena-getcluster,
  debathena-get-message,
  debathena-hesiod-config,
  debathena-hostinfo,
- debathena-just,
  debathena-kerberos-config,
  debathena-lam,
  debathena-ldap-config,
@@ -38,11 +35,12 @@ Depends: athena-jot,
  debathena-xcluster,
  debathena-xdsc,
  debathena-zephyr-config,
+ finger (>= 0.17-13~),
  tzc,
  ldap-utils,
  ${misc:Depends}
 Recommends:  debathena-alpine-config,
  debathena-mutt-config,
-Suggests: barnowl | owl
+Suggests: barnowl
 Description: Metapackage providing clients for Athena services
  This package depends on clients for various Athena services.

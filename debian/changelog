@@ -1,3 +1,12 @@
+debathena-clients (1.0.3) unstable; urgency=low
+
+  * Remove dent and just, which no longer exist
+  * Remove possible finger-config reference, since finger-config does not
+    exist anymore
+  * Use debhelper 7
+
+ -- Victor Vasiliev <vasilvv@mit.edu>  Thu, 27 Mar 2014 00:23:10 -0400
+
 debathena-clients (1.0.2) unstable; urgency=low
 
   [ Jonathan Reed ]
