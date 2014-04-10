@@ -1,3 +1,9 @@
+debathena-clients (1.0.4) unstable; urgency=low
+
+  * Add discuss-ng to the list of clients.
+
+ -- Victor Vasiliev <vasilvv@mit.edu>  Thu, 10 Apr 2014 16:40:16 -0400
+
 debathena-clients (1.0.3) unstable; urgency=low
 
   * Remove dent and just, which no longer exist
